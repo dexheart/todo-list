@@ -1,0 +1,17 @@
+.allBox {
+    
+    width: 46rem;
+    height: 28.1875rem;
+    margin-top: calc(0rem - 1.6875rem);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerBox {
+    margin-top: 4rem;
+}

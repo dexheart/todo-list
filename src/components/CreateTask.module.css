@@ -1,0 +1,80 @@
+.taskBox {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    box-sizing: border-box;
+    
+}
+
+.taskBox input {
+    border-radius: 8px;
+    padding: 1rem;
+    width: 39.875rem;
+    height: 3.375rem;
+
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+
+
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    color: var(--white);
+    
+}
+
+.taskBox input:focus::placeholder {
+    color: var(--white);
+}
+
+.taskBox input:focus {
+    outline: none;
+}
+
+.taskBox button {
+    width: 5.625rem;
+    height: 3.25rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+ 
+    border-radius: 8px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 140%;
+
+    background-color: var(--blue-600);
+    color: var(--gray-100);
+
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    border: 0;
+
+}
+
+.taskBox button:hover {
+    background-color: var(--blue-700);
+}
+
+.taskBox button:active {
+    background-color: var(--blue-800);
+}
+
+.imgPlusOnButton {
+    width: 1rem;
+    height: 1rem;
+}

@@ -1,0 +1,45 @@
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.numberOfTasks {
+
+    width: 9px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    
+    padding: 2px 8px;
+    gap: 10px;
+
+    color: var(--gray-200);
+    background: var(--gray-400);
+    border-radius: 999px;
+}
+
+.taskNameStyle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: var(--blue-300);
+}
+
+.taskNameFinishedStyle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: var(--purple-300);
+}
